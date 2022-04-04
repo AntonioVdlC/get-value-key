@@ -4,7 +4,7 @@
  * @param key
  * @returns
  */
- function getValueByKey(obj: Record<string, any>, key: string) {
+function getValueByKey(obj: Record<string, any>, key: string) {
   return String(key)
     .split(".")
     .reduce((acc, cur: string) => acc?.[cur] ?? null, obj);
