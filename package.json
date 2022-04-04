@@ -1,6 +1,6 @@
 {
   "name": "get-value-key",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Retrieve the value in an object based on a key path.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
