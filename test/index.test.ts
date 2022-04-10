@@ -1,4 +1,6 @@
-import getValueByKey from "../src/index.ts";
+import { describe, it, expect } from "vitest";
+
+import getValueByKey from "../src";
 
 describe("getValueByKey", () => {
   it("is a function", () => {
