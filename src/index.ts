@@ -5,7 +5,7 @@
  * @returns
  */
 function getValueByKey<T>(
-  obj: Record<number | string | symbol, any>,
+  obj: Record<number | string | symbol, any> | null,
   key: string
 ): T | null {
   return String(key)

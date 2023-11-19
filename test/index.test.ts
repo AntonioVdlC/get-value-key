@@ -27,4 +27,11 @@ describe("getValueByKey", () => {
 
     expect(actual).toEqual(expected);
   });
+
+  it("return null if object is null", () => {
+    const expected = null;
+    const actual = getValueByKey(null, "nested.num");
+
+    expect(actual).toEqual(expected);
+  });
 });
